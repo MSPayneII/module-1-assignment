@@ -22,7 +22,7 @@ reader.question(
     } else if (userInput.length >= 10) {
       // If user input is 10 or more characters long
       console.log(
-        " Your password is validated!. It meets the necessary amount of characters needed."
+        "Your password is validated!. It meets the necessary amount of characters needed."
       );
     } else if (userInput.length > 0 && userInput.length < 10) {
       // If user input is 1-9 characters long
