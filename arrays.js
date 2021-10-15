@@ -42,7 +42,7 @@ let middleNums = numbers.splice(1, 3);
 // CODE HERE
 let testArray = [101, 50, 125, 140, 90, 20];
 
-let bigOrSmall = (arr) => {
+const bigOrSmall = (arr) => {
   let answers = [];
 
   for (let i = 0; i < arr.length; i++) {
