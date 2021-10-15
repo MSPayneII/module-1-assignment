@@ -19,17 +19,17 @@
 let planningPhase =
   "Phase to make a plan that covers every portion of the development process. Helps ensure everyone is aware of deadlines, checkpoints, updates, and etc.";
 
-let AnaysisOfReqsPhase =
+let analysisOfReqsPhase =
   "Phase to make sure expectations and requirements are understood for everyone involved (clients, devs, designers, etc).";
 
 let designPhase =
-  "Phase for designing things like wireframes, user research, li/mid/hi fidility prototypes, and etc).";
+  "Phase for designing the project. Things like wireframes, user research, li/mid/hi fidility prototypes, and etc are done here).";
 
-let ImplementationPhase =
-  "Phase for producing a working prototype/product incorporating aspects from the design phase.";
+let implementationPhase =
+  "Phase for producing a working prototype/product, incorporating aspects from the design phase.";
 
 let testingIntegrationPhase =
-  "Phase for testing and debugging. Doing more user testing, getting feedback and updating the product.";
+  "Phase for testing and debugging. Doing more user testing, QA, getting feedback and updating the code.";
 
 let maintainPhase =
-  "Phase for addressing bugs and updates to ensure the products works for those using it. ";
+  "Phase for addressing bugs and updates after the product has launched to ensure the products continues to work for those using it. ";
