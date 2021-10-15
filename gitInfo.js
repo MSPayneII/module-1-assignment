@@ -19,7 +19,7 @@ let gitDefinition = "A software for tracking changes in a set of files.";
 
 //CODE HERE
 let gitHubDefinition =
-  "A provider for hosting projects, development projects. Allows utilizes Git for maintaining version control.";
+  "A provider for hosting development projects. Utilizes Git for maintaining version control.";
 //////////////////PROBLEMS 3 - 8////////////////////
 /*
     For the next several problems you will be creating objects containing information about different git 
@@ -36,11 +36,12 @@ let gitHubDefinition =
 
 //CODE HERE
 let init = {
-  description: "Command that creates a new Git repository.",
+  description:
+    "Command that creates a new Git repository or reinitializes one.",
   code: "git init",
 };
 
-// console.log(init);
+console.log(init);
 
 //////////////////PROBLEM 4////////////////////
 /*
@@ -56,6 +57,7 @@ let clone = {
 };
 
 console.log(clone);
+
 //////////////////PROBLEM 5////////////////////
 /*
     Create an object called 'status' with 'description' and 'code' properties 
@@ -87,6 +89,7 @@ let add = {
 };
 
 console.log(add);
+
 //////////////////PROBLEM 7////////////////////
 /*
     Create an object called 'commit' with 'description' and 'code' properties
